@@ -1,0 +1,17 @@
+name: check
+
+on: [push]
+
+jobs:
+  check:
+    runs-on: [Windows]
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+    
+      - name: type info
+        shell: cmd
+        run: type submodule_actions\README.md

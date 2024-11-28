@@ -1,0 +1,3 @@
+[submodule "submodule_actions"]
+	path = submodule_actions
+	url = git@github.com:aviborg/submodule_actions.git
