@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   check:
-    runs-on: [Windows]
+    runs-on: [windows-latest]
 
     steps:
       - name: checkout repository
