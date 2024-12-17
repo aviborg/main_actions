@@ -1,4 +1,4 @@
-fname: check
+name: check
 
 on: [push]
 
