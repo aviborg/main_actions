@@ -7,6 +7,9 @@ jobs:
     runs-on: [windows-latest]
 
     steps:
+      - name: git config
+        run: git config --list
+    
       - name: checkout repository
         uses: actions/checkout@v4
         with:
