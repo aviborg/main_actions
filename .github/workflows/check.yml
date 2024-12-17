@@ -1,10 +1,10 @@
-name: check
+fname: check
 
 on: [push]
 
 jobs:
   check:
-    runs-on: [windows-latest]
+    runs-on: [self-hosted]
 
     steps:
       - name: git config
